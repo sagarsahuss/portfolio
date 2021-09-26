@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+header{
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 0px 100px;
+    z-index: 1;
+}
+header h2{
+    font-size: 1rem;
+}
+#nav-bar li{
+    padding: 25px;
+    list-style: none;
+}
+#nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+#nav-bar a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.image1{
+	background-image: url("b.jpg");
+	min-height: 100vh;
+    background-size: cover;
+	opacity: 0.75;
+	background-position: center;
+	background-attachment: fixed;
+}
+.heading{
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	color: #000;
+    font-size: 5rem;
+}
+.span-text-1{
+	font-weight: 700;
+}
+.span-text-2{
+	font-weight: 400;
+}
+.span-text-3{
+	font-weight: 600;
+}
+.Social-icons{
+    font-size: 2rem;
+}
+.Social-icons .fa{
+    padding: 1rem;
+    color: black;
+}
+
+
+.container-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 85vw;
+    padding-bottom: 90px;
+}
+.image-container img{
+    padding-top: 100px;
+    padding-left: 300px;
+    height: 550px;
+}
+
+.skills-chart{
+    margin: 50px 0px 0px 100px;
+    padding: 30px 0px;
+}
+.text-container h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+.text-container p{
+    font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+
+
+.skills-chart .bar{
+    padding-bottom: 10px;
+}
+.bar-head{
+    display: block;
+    font-size: 1rem;
+    padding: 4px 0;
+}
+meter{
+    width: 400px;
+    height: 22px;
+}
+.skills-chart button{
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    margin-top: 5vh;
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    outline: none;
+    border: none;
+}
+#button-2{
+    background-color: white;
+    color: #000;
+    border: 2px solid black;
+    margin-left: 10px;
+    
+}
+.services-section{
+    padding-top: 40px;
+    background-color: lightgray;
+    text-align: center;
+}
+.services-section h1{
+    font-size: 3rem;
+}
+.container-2{
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+.card{
+    height: 220px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.card-content{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card-content .fa{
+    font-size: 4rem;
+}
